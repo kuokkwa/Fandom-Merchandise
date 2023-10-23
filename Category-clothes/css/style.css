@@ -1,0 +1,87 @@
+/* GENERAL STYLES */
+body{
+    font-family: 'Inika', Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
+}
+
+/* HEADER */
+.header {
+    padding: 30px 50px;
+    background-color: rgb(0, 0, 0);
+    max-height: 130px;
+}
+.header h1 {
+    color: white;
+    text-align: left;
+    font-size: 35px;
+}
+.header a {
+    color: white;
+    text-decoration: none;
+}
+.logo {
+    position: absolute;
+    top: 1%;
+    left: 20%;
+}
+.search-icon {
+    position: absolute;
+    top: 5.5%;
+    left: 29%;
+    z-index: 10;
+}
+.search-box {
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffffff;
+    height: 40pxrgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 10px;
+}
+.search-box > .search-txt {
+    width: 540px;
+    padding: 0 50px;
+}
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: black;
+    transition: 1s;
+    line-height: 40px;
+    width: 0px;
+}
+.icon {
+    position: absolute;
+    top: 5%;
+    left: 90%;
+}
+
+/* FOOTER*/
+.footer {
+    padding: 30px 50px;
+}
+.footer h1 {
+    font-size: 25px;
+}
+#footer-left {
+    position: absolute;
+    text-align: left;
+}
+#footer-right {
+    text-align: right;
+}
+#footer-center {
+    text-align: center;
+    padding: 50px 50px;
+}
+#footer-center img {
+    padding: 10px 10px 10px 10px;
+}
+#footer-bottom {
+    text-align: center;
+}
