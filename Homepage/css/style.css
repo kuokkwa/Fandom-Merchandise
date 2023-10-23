@@ -1,0 +1,302 @@
+/* GENERAL STYLES */
+body{
+    font-family: 'Inika', Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
+}
+
+/* HEADER */
+.header {
+    padding: 30px 50px;
+    background-color: rgb(0, 0, 0);
+    max-height: 130px;
+}
+.header h1 {
+    color: white;
+    text-align: left;
+    font-size: 35px;
+}
+.header a {
+    color: white;
+    text-decoration: none;
+}
+.logo {
+    position: absolute;
+    top: 1%;
+    left: 20%;
+}
+.search-icon {
+    position: absolute;
+    top: 5.5%;
+    left: 29%;
+    z-index: 10;
+}
+.search-box {
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffffff;
+    height: 40pxrgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 10px;
+}
+.search-box > .search-txt {
+    width: 540px;
+    padding: 0 50px;
+}
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: black;
+    transition: 1s;
+    line-height: 40px;
+    width: 0px;
+}
+.icon {
+    position: absolute;
+    top: 5%;
+    left: 90%;
+}
+
+/* PAGE NAVIGATION*/
+.page-navigation {
+    padding: 0px 30px;
+    background-color: rgb(0, 0, 0);
+    min-height: 250px;
+
+}
+.navigation-container img {
+    position: absolute;
+}
+.cartoons {
+    top: 85px;
+    left: 70px;
+}
+.anime {
+    top: 85px;
+    left: 230px;
+}
+.games {
+    top: 85px;
+    left: 460px;
+}
+.films {
+    top: 85px;
+    left: 690px;
+}
+.books {
+    top: 85px;
+    left: 920px
+}
+.series {
+    top: 85px;
+    left: 1090px;
+}
+.navigation-container a {
+    text-decoration: none;
+    color: white;
+}
+.page-navigation h1 {
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    z-index: 10;
+    font-size: 30px;
+}
+.cartoons-text {
+    border-radius: 20px;
+    padding: 30px 100px 10px 60px;
+    transform: rotate(-57deg);
+    top: 200px;
+    left: 110px;
+    opacity: 0;
+}
+.anime-text {
+    padding: 30px 105px 10px 105px;
+    transform: rotate(-57deg);
+    top: 220px;
+    left: 307px;
+    opacity: 0;
+}
+.games-text {
+    padding: 30px 105px 10px 105px;
+    transform: rotate(-57deg);
+    top: 220px;
+    left: 535px;
+    opacity: 0;
+}
+.films-text {
+    padding: 30px 120px 10px 105px;
+    transform: rotate(-57deg);
+    top: 220px;
+    left: 768px;
+    opacity: 0;
+}
+.books-text {
+    padding: 30px 115px 10px 105px;
+    transform: rotate(-57deg);
+    top: 225px;
+    left: 995px;
+    opacity: 0;
+}
+.series-text {
+    border-radius: 10px;
+    padding: 10px 100px 30px 80px;
+    transform: rotate(-57deg);
+    top: 240px;
+    left: 1135px;
+    opacity: 0;
+}
+.cartoons-text:hover {
+    opacity: 1;
+    transition: 0.7s;
+}
+.anime-text:hover {
+    opacity: 1;
+    transition: 0.7s;
+}
+.games-text:hover {
+    opacity: 1;
+    transition: 0.7s;
+}
+.films-text:hover {
+    opacity: 1;
+    transition: 0.7s;
+}
+.books-text:hover {
+    opacity: 1;
+    transition: 0.7s;
+}
+.series-text:hover {
+    opacity: 1;
+    transition: 0.7s;
+}
+
+/* MAIN SECTION*/
+.main {
+    background-color: rgb(0, 0, 0);
+}
+.main img {
+    margin: 10px 40px 10px 40px;
+    padding: 10px 0 0 10px;
+}
+.main h1 {
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    z-index: 10;
+    font-size: 25px;
+}
+#main1, #main2 {
+    padding: 50px 50px;
+}
+.clothes-text {
+    padding: 130px 90px 130px 90px;
+    top: 448px;
+    left: 99px;
+    opacity: 0;
+}
+.two-figures-text {
+    padding: 130px 75px 130px 75px;
+    top: 448px;
+    left: 453px;
+    opacity: 0;
+}
+.bags-text {
+    padding: 130px 105px 130px 105px;
+    top: 448px;
+    left: 809px;
+    opacity: 0;
+}
+.accessories-text {
+    padding: 130px 70px 130px 70px;
+    top: 448px;
+    left: 1160px;
+    opacity: 0;
+}
+.shoos-text {
+    padding: 130px 100px 130px 100px;
+    top: 861px;
+    left: 97px;
+    opacity: 0;
+}
+.three-figures-text {
+    padding: 130px 75px 130px 75px;
+    top: 861px;
+    left: 453px;
+    opacity: 0;
+}
+.cups-text {
+    padding: 130px 105px 130px 105px;
+    top: 861px;
+    left: 807px;
+    opacity: 0;
+}
+.stuffed-toys-text {
+    padding: 130px 65px 130px 65px;
+    top: 861px;
+    left: 1165px;
+    opacity: 0;
+}
+.clothes-text:hover {
+    opacity: 1;
+    transition: 0.7s;
+}
+.two-figures-text:hover {
+    opacity: 1;
+    transition: 0.7s;
+}
+.bags-text:hover {
+    opacity: 1;
+    transition: 0.7s;
+}
+.accessories-text:hover {
+    opacity: 1;
+    transition: 0.7s;
+}
+.shoos-text:hover {
+    opacity: 1;
+    transition: 0.7s;
+}
+.three-figures-text:hover {
+    opacity: 1;
+    transition: 0.7s;
+}
+.cups-text:hover {
+    opacity: 1;
+    transition: 0.7s;
+}
+.stuffed-toys-text:hover {
+    opacity: 1;
+    transition: 0.7s;
+}
+
+/* FOOTER*/
+.footer {
+    padding: 30px 50px;
+}
+.footer h1 {
+    font-size: 25px;
+}
+#footer-left {
+    position: absolute;
+    text-align: left;
+}
+#footer-right {
+    text-align: right;
+}
+#footer-center {
+    text-align: center;
+    padding: 50px 50px;
+}
+#footer-center img {
+    padding: 10px 10px 10px 10px;
+}
+#footer-bottom {
+    text-align: center;
+}
