@@ -1,0 +1,138 @@
+/* GENERAL STYLES */
+body{
+    font-family: 'Inika', Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
+}
+.background {
+    background-color: black;
+}
+.profile-nick {
+    color:rgb(110, 110, 110);
+}
+
+/* HEADER */
+.header {
+    padding: 30px 50px;
+    background-color: rgb(0, 0, 0);
+    max-height: 130px;
+}
+.header h1 {
+    color: white;
+    text-align: left;
+    font-size: 35px;
+}
+.header a {
+    color: white;
+    text-decoration: none;
+}
+.logo {
+    position: absolute;
+    top: 1%;
+    left: 20%;
+}
+.search-icon {
+    position: absolute;
+    top: 5.5%;
+    left: 29%;
+    z-index: 10;
+}
+.search-box {
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffffff;
+    height: 40pxrgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 10px;
+}
+.search-box > .search-txt {
+    width: 540px;
+    padding: 0 50px;
+}
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: black;
+    transition: 1s;
+    line-height: 40px;
+    width: 0px;
+}
+.icon {
+    position: absolute;
+    top: 5%;
+    left: 90%;
+}
+
+/* POST ONE */
+
+.post-one {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.genshin-logo {
+    padding: 20px 50px;
+}
+.post-one .profile-name {
+    font-size: 25px;
+    position: absolute;
+    top: 200px;
+    left: 160px;
+}
+.post-one .profile-nick {
+    font-size: 25px;
+    position: absolute;
+    top: 200px;
+    left: 350px;
+}
+.genshin-post {
+    font-size: 25px;
+    border: 5px solid;
+    border-radius: 8px;
+    margin: 10px 10px;
+    border-color: white;
+    color: white;
+}
+.genshin-post h1, img {
+    margin: 20px 20px;
+}
+.post-one .reaction img {
+    padding: 20px 50px;
+}
+/*POST TWO */
+.post-two {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.honkai-logo {
+    padding: 20px 50px;
+}
+.post-two .profile-name {
+    font-size: 25px;
+    position: absolute;
+    top: 1080px;
+    left: 165px;
+}
+.post-two .profile-nick {
+    font-size: 25px;
+    position: absolute;
+    top: 1080px;
+    left: 385px;
+}
+.honkai-post {
+    font-size: 25px;
+    border: 5px solid;
+    border-radius: 8px;
+    margin: 10px 10px;
+    border-color: white;
+    color: white;
+}
+.honkai-post h1, img {
+    margin: 20px 20px;
+}
+.post-two .reaction img {
+    padding: 20px 50px;
+}
