@@ -1,0 +1,1 @@
+let notification = confirm('Register to access all site features');
